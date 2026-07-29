@@ -1,0 +1,22 @@
+str = "I am studying Python Basics"
+
+#endswith() function is used to check whether the string ends with the specified suffix or not.
+print(str.endswith("Basics"))
+print(str.endswith("Python"))
+
+#startswith() function is used to check whether the string starts with the specified prefix or not.
+print(str.startswith("I"))
+print(str.startswith("am"))
+
+#capitalize() function is used to convert the first character of the string to uppercase and the rest of the characters to lowercase.
+print(str.capitalize())
+
+#replace() function is used to replace a specified substring with another substring in the string.
+print(str.replace("o","a"))
+
+#find() function is used to find the index of the first occurrence of a specified substring in the string. If the substring is not found, it returns -1.
+print(str.find("am"))
+
+#count() function is used to count the number of occurrences of a specified substring in the string.
+print(str.count("am"))
+

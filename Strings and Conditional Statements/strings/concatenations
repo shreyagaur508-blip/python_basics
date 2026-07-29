@@ -1,0 +1,7 @@
+str1 = "Hello"
+str2 = "World"
+
+#concatenation 
+str = str1+str2
+
+print(str)

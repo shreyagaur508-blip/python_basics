@@ -1,0 +1,6 @@
+#syntax : str[starting index:ending index]
+str = "Hello World"
+print(str[6:12])
+print(str[0:5])
+print(str[6:12])
+print(str[-5:-1])

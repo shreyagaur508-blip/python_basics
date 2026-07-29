@@ -1,0 +1,18 @@
+#Syntax : 
+
+#  if(condition):
+#    statement1
+#  elif(condition):
+#    statement2
+#  else:
+#    statementN
+light = "green"
+
+if light == "green":
+    print("Go")
+elif light == "yellow":
+    print("Prepare to stop")
+elif light == "red":
+    print("Stop")
+else: 
+    print("Light is broken")

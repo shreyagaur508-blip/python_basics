@@ -1,0 +1,5 @@
+str1 = "Hello , My name is Shreya"
+
+#length  of the string
+length = len(str1)
+print(length)
