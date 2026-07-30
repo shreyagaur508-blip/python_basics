@@ -1,0 +1,13 @@
+marks = [94.4 , 90.9 , 89.9] #list of marks
+
+print(marks)
+
+print(type(marks))  # This will print the type of the variable 'marks', which is <class 'list'>
+print(len(marks))  # This will print the length of the list 'marks', which is 3
+print(marks[0])  # This will print the first element of the list 'marks', which is 94.4
+print(marks[1])  # This will print the second element of the list 'marks', which is 90.9
+print(marks[2])  # This will print the third element of the list 'marks', which is 89.9
+
+students = ['John', 95.5 ,'Alice',99.9 , 'Bob' , 56.8] #list of student names
+print(students[0])  # This will print the first element of the list 'students', which is 'John'
+students[1] = 'Shreya'  # This will change the second element of the list 'students' to 'Shreya'

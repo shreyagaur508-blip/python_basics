@@ -1,0 +1,5 @@
+movies = []
+movies.append(input("Enter the first 1st movie:"))
+movies.append(input("Enter the second 2nd movie:")) 
+movies.append(input("Enter the third 3rd movie:"))
+print(movies)

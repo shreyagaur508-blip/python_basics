@@ -1,0 +1,2 @@
+marks = [67 ,77 ,65 ,99, 67]
+print(marks[0:3])  # This will print the first three elements of the list 'marks', which are [67, 77, 65]
