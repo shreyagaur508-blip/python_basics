@@ -1,0 +1,8 @@
+i = 0
+
+#while loop
+while i < 100:
+    print("Hello I'm Shreya Gaur", i)
+    i += 1
+
+print(i)
