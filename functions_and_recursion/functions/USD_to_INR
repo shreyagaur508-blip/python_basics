@@ -1,0 +1,6 @@
+def convert_usd_to_inr(usd):
+    inr = usd * 82.74
+    print(f"{usd} USD is equal to {inr} INR")
+    return inr
+
+convert_usd_to_inr(10)

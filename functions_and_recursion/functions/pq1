@@ -1,0 +1,12 @@
+list = ["10" , "Shreya" , "hello" , "20" , 40]
+
+def print_len(list):
+    print(len(list))
+
+print_len(list)
+
+def print_list(list):
+    for i in list:
+        print(i,end = " ")
+
+print_list(list)

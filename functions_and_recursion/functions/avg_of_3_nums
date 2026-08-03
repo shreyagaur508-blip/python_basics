@@ -1,0 +1,7 @@
+def avg(a,b,c):
+    sum = a+b+c
+    avg = sum/3
+    print("The average of", a, b, c, "is:", avg)
+    return avg
+
+avg(10, 20, 30)
