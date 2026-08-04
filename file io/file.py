@@ -1,0 +1,6 @@
+f = open("file io\demo.txt", "rt" )
+data = f.read(5)
+line1 = f.readline()
+print(data)
+print(type(data))
+f.close()
