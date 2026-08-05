@@ -1,0 +1,29 @@
+f = open( "file io\sample.txt" , "w")
+f.write("Hi everyone\n")
+f.write("we are learning file handling in python\n")
+f.write("using java\n")
+f.write("I like programming in java\n")
+f.close()
+
+with open("file io\sample.txt", "r") as f:
+    data = f.read()
+
+new_data = data.replace("java", "Python")
+print(new_data)
+
+#finding the word in the file
+with open("file io\sample.txt", "r") as f:
+    data = f.read()
+    if "java" in data:
+        print("Yes, 'java' is present in the file.")
+    else:
+        print("No, 'java' is not present in the file.")
+
+#check for line
+def check_for_line():
+    word_to_check = "java"
+    with open("file io\sample.txt", "r") as f:  
+        for line in f:
+            if word_to_check in line:
+                print(f"Yes, '{word_to_check}' is present in the line: {line.strip()}")
+                return
