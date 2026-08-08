@@ -1,4 +1,4 @@
-def prod(a =10, b = 20):
+def prod(a =1, b = 1):
     product = a*b
     print("The product of", a, "and", b, "is:", product)
     return product

@@ -4,4 +4,3 @@ class Student:
 
 #object
 s1 = Student()
-print(s1.name)
